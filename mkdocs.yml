@@ -1,0 +1,72 @@
+site_name: "Yarree Career Makeover — Starseed Enterprises"
+site_url: https://cascadiasystems.org/
+site_description: Career planning package for Yarrow — prepared by Starseed Career Ops
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: Fira Code
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  icon:
+    logo: material/star-four-points
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - What Happens Next: what-happens-next.md
+  - Resumes:
+    - Master Resume: resumes/master-resume.md
+    - Acupuncture Clinic Resume: resumes/acupuncture-clinic-resume.md
+  - Career Pathways:
+    - "\u2B50 Community Acupuncture": pathways/01-acupuncture-practice.md
+    - "\u2B50 Integrated Wellness": pathways/02-integrated-wellness.md
+    - Dog Training Expansion: pathways/03-dog-training-expansion.md
+    - Hybrid Model: pathways/04-hybrid-model.md
+    - Anthropology-Adjacent: pathways/05-anthropology-adjacent.md
+    - Bridge Employment: pathways/06-bridge-employment.md
+  - Research:
+    - Portland Market Research: research/portland-market-research.md
+    - Competitor Map: research/portland-competitor-map.md
+    - Acupuncture Business Model: research/business-model-acupuncture.md
+    - Integrated Wellness Model: research/business-model-integrated-wellness.md
+    - Startup Checklist: research/startup-checklist.md
+    - Insurance Guide: research/insurance-acceptance-guide.md
+    - Grants & Funding: research/grants-and-funding.md
+    - Queer/Trans Health Network: research/queer-trans-health-network.md
+    - Branding & Naming: research/branding-and-naming.md
+    - Legal & Tax Guide: research/legal-tax-guide.md
