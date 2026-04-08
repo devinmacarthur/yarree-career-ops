@@ -1,24 +1,25 @@
-site_name: "Yarree Career Makeover — Starseed Enterprises"
-site_url: https://cascadiasystems.org/
+site_name: "✨ Yarree Career Makeover"
+site_url: https://devinmacarthur.github.io/yarree-career-ops/
 site_description: Career planning package for Yarrow — prepared by Starseed Career Ops
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - scheme: default
-      primary: deep purple
-      accent: amber
+      primary: teal
+      accent: deep orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: deep purple
-      accent: amber
+      primary: teal
+      accent: deep orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Inter
+    text: Nunito
     code: Fira Code
   features:
     - navigation.instant
@@ -26,11 +27,16 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - toc.follow
+    - content.tooltips
   icon:
     logo: material/star-four-points
+
+extra_css:
+  - stylesheets/custom.css
 
 plugins:
   - search
@@ -45,21 +51,23 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
 
 nav:
   - Home: index.md
-  - What Happens Next: what-happens-next.md
-  - Resumes:
+  - "\U0001F4CB What Happens Next": what-happens-next.md
+  - "\U0001F4C4 Resumes":
     - Master Resume: resumes/master-resume.md
     - Acupuncture Clinic Resume: resumes/acupuncture-clinic-resume.md
-  - Career Pathways:
+  - "\U0001F3AF Career Pathways":
     - "\u2B50 Community Acupuncture": pathways/01-acupuncture-practice.md
     - "\u2B50 Integrated Wellness": pathways/02-integrated-wellness.md
     - Dog Training Expansion: pathways/03-dog-training-expansion.md
     - Hybrid Model: pathways/04-hybrid-model.md
     - Anthropology-Adjacent: pathways/05-anthropology-adjacent.md
     - Bridge Employment: pathways/06-bridge-employment.md
-  - Research:
+  - "\U0001F50D Research":
     - Portland Market Research: research/portland-market-research.md
     - Competitor Map: research/portland-competitor-map.md
     - Acupuncture Business Model: research/business-model-acupuncture.md
@@ -71,3 +79,4 @@ nav:
     - Branding & Naming: research/branding-and-naming.md
     - Legal & Tax Guide: research/legal-tax-guide.md
     - Clinic Space Research: research/clinic-space-research.md
+    - Salary Research: research/salary-research.md

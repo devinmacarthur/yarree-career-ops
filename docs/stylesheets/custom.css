@@ -1,0 +1,121 @@
+/* Starseed Enterprises — Yarree Career Makeover Custom Theme */
+
+/* Warm earthy tones inspired by branding doc: moss green + cream + terracotta */
+:root {
+  --md-primary-fg-color: #00796b;
+  --md-primary-fg-color--light: #4db6ac;
+  --md-primary-fg-color--dark: #004d40;
+  --md-accent-fg-color: #bf360c;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #4db6ac;
+  --md-accent-fg-color: #ff8a65;
+}
+
+/* Softer page background */
+.md-main {
+  background: #fafaf5;
+}
+
+[data-md-color-scheme="slate"] .md-main {
+  background: #1a1a2e;
+}
+
+/* Homepage hero card styling */
+.hero-card {
+  background: linear-gradient(135deg, #e0f2f1 0%, #fff8e1 100%);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #b2dfdb;
+}
+
+[data-md-color-scheme="slate"] .hero-card {
+  background: linear-gradient(135deg, #1a3a3a 0%, #2a2a1a 100%);
+  border-color: #37474f;
+}
+
+/* Section cards on homepage */
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.section-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.section-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+[data-md-color-scheme="slate"] .section-card {
+  background: #2a2a3e;
+  border-color: #37474f;
+}
+
+.section-card h3 {
+  margin-top: 0;
+  color: var(--md-primary-fg-color);
+}
+
+.section-card a {
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Announcement bar styling */
+.md-banner {
+  background: linear-gradient(90deg, #00796b, #00897b, #4db6ac);
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Nicer admonitions */
+.md-typeset .admonition {
+  border-radius: 8px;
+}
+
+/* Table styling */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--md-primary-fg-color);
+  color: white;
+}
+
+/* Feedback button - fixed position */
+.feedback-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--md-accent-fg-color);
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.85rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 100;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feedback-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  color: white;
+}
