@@ -25,17 +25,30 @@ These are Yarrow's closest comparables — clinics using the open-room, sliding-
 ### North Portland Community Acupuncture
 - **Location:** Pop-up model, has operated at Turn! Turn! Turn! venue (NE Portland / Mississippi area)
 - **Pricing:** Sliding scale (likely $15-$40 range based on POCA norms)
-- **POCA-affiliated:** Likely yes (verify)
+- **POCA-affiliated:** Likely yes
 - **Patient focus:** General community
-- **Notes:** Pop-up/event-based rather than fixed clinic. Lower overhead, less consistent scheduling. May be intermittent or seasonal.
-- **Website:** Verify current status — pop-up clinics can be transient
+- **Status:** ⚠️ **ON PAUSE since May 2024** — practitioner (Felicia) went overseas. Unclear if it will reopen. Had only been open ~2 years.
+- **Website:** https://northportlandcommunityacupuncture.org/
 
-### Pollinate Community Acupuncture
-- **Location:** NE Portland (verify current address — has been in the Hollywood / NE Broadway area)
+### Montavilla Community Acupuncture
+- **Location:** 212 SE 79th Ave, Portland (Montavilla neighborhood)
 - **Pricing:** Sliding scale, community model
 - **POCA-affiliated:** Verify
-- **Patient focus:** General community acupuncture
-- **Website:** Verify current status
+- **Patient focus:** General community
+- **Website:** https://www.montavilla-acupuncture.com/
+
+### White Phoenix Acupuncture
+- **Location:** Foster-Powell neighborhood, SE Portland
+- **Pricing:** Sliding scale / community model
+- **POCA-affiliated:** Verify
+- **Patient focus:** General community
+- **Website:** https://whitephoenix.org/
+
+### Little Pine Community Acupuncture
+- **Location:** SE Portland
+- **Pricing:** Sliding scale, community model
+- **Patient focus:** General community
+- **Website:** https://www.littlepinepdx.com/
 
 ### People's Acupuncture of Portland
 - **Location:** Verify — has operated in SE Portland
@@ -57,13 +70,10 @@ These are Yarrow's closest comparables — clinics using the open-room, sliding-
 
 These clinics offer reduced-cost acupuncture but use a private-room or hybrid model rather than the classic open-room POCA setup.
 
-### OCOM Community Clinic (Oregon College of Oriental Medicine)
+### ~~OCOM Community Clinic (Oregon College of Oriental Medicine)~~
 - **Location:** SE Portland (OCOM campus, near SE Division / 75th area)
-- **Pricing:** Reduced rates (typically $15-$30) — student clinic supervised by licensed practitioners
-- **POCA-affiliated:** No (academic institution)
-- **Patient focus:** General; student teaching clinic
-- **Notes:** High-quality affordable care but limited hours, academic calendar dependent. Students treat under supervision. Good option for price-sensitive patients but not a direct competitor to a professional community clinic.
-- **Website:** https://ocom.edu/
+- **Status:** ⛔ **CLOSED — OCOM shut down in 2024** due to financial issues and low enrollment. This removes a significant source of affordable acupuncture in SE Portland.
+- **Implication for Yarrow:** The loss of OCOM's teaching clinic creates an underserved pocket in SE Portland. Patients who relied on OCOM's low-cost care need somewhere to go.
 
 ### NUNM Community Clinic (National University of Natural Medicine)
 - **Location:** SW Portland (NUNM campus, near SW Porter / Barbur area)
